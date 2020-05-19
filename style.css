@@ -1,0 +1,165 @@
+*{
+    -webkit-appearance: none;
+    /*サファリのリセット*/
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-menu{
+    display: flex;
+}
+
+.fa-plane{
+    margin: 10px;
+}
+
+.sform{
+    display: flex;
+}
+
+.sbox{
+    width: 400px;
+    height: 45px;
+    border: 2px solid #f5f5f5;
+    margin-left: 0;
+    border-left: 0;
+}
+
+.sbutton{
+    height: 45px;
+    background: #fff;
+    border: 2px solid #f5f5f5;
+    margin-right: 0;
+    border-right: 0;
+}
+.right-menu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.right-menu li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #5c5b5b;
+}
+
+.main-image{
+    width: 100%;
+    height: 600px;
+    background-image: url(img.jpg);
+    background-size: cover;
+    vertical-align: bottom;
+}
+
+h1{
+    font-size: 45px;
+    color: #fff;
+    padding: 150px 0 0 150px;
+}
+
+.main-image p{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 150px;
+}
+.mainbutton{
+    margin-left: 150px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.second-title{
+    text-align: center;
+}
+
+.second-colum{
+    display: flex;
+    justify-content: center;
+}
+
+.mail,.time,.world{
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+}
+
+.third-colum{
+    background: #20b2aa;
+    text-align: center;/*子要素が全て中央よりになる*/
+    width: 100%;
+    height: 400px;
+}
+
+.fa-gift{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+h2.third{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+p.third{
+    color: #fff;
+}
+
+.gift{
+    background: lightpink;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.gift2 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.last-colum-all{
+    display: flex;
+    justify-content: center;
+}
+
+.last-colum-all li{
+    list-style: none;
+}
+
+.last-colum-all li a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5c5b5b;
+    text-decoration: none;
+}
+
+.icons a{
+    font-size: 20px;
+    color: #c0c0c0;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.last-colum1,.last-colum2,.last-colum3,.last-colum4{
+    margin: 20px;
+}
+.last-list{
+    display: flex;
+    justify-content: center;
+}
